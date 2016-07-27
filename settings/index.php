@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sora - Mobile Application Management</title>
+    <title>Sora - Settings</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -143,7 +143,7 @@
                             <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
                         </li>
                         <li>
-                            <a href="settings/index.php"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                            <a href="settings.php"><i class="fa fa-fw fa-gear"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
                         <li>
@@ -155,23 +155,23 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
+                    <li>
                         <a href="/index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="appmanagement/index.php"><i class="fa fa-fw fa-cogs"></i> Application Management</a>
+                        <a href="/appmanagement/index.php"><i class="fa fa-fw fa-cogs"></i> Application Management</a>
                     </li>
                     <li>
-                        <a href="stroke/index.php"><i class="fa fa-fw fa-bolt"></i> Stroke</a>
+                        <a href="/stroke/index.php"><i class="fa fa-fw fa-bolt"></i> Stroke</a>
                     </li>
                     <li>
-                        <a href="sepsis/index.php"><i class="fa fa-fw fa-warning"></i> Sepsis</a>
+                        <a href="/sepsis/index.php"><i class="fa fa-fw fa-warning"></i> Sepsis</a>
                     </li>
                     <li>
-                        <a href="codeblue/index.php"><i class="fa fa-fw fa-heart"></i> Code Blue</a>
+                        <a href="/codeblue/index.php"><i class="fa fa-fw fa-heart"></i> Code Blue</a>
                     </li>
-                    <li>
-                        <a href="settings/index.php"><i class="fa fa-fw fa-support"></i> Settings</a>
+                    <li class="active">
+                        <a href="/settings/index.php"><i class="fa fa-fw fa-support"></i> Settings</a>
                     </li>
                 </ul>
             </div>
@@ -186,11 +186,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Sora <small>Mobile Application Management</small>
+                            Sora <small>Settings</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
-                                <i class="fa fa-dashboard"></i> Dashboard
+                                <a href="/index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
                             </li>
                         </ol>
                     </div>
@@ -220,7 +220,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="appmanagement/index.php">
+                            <a href="/appmanagement/index.php">
                                 <div class="panel-footer">
                                     <span class="pull-left">Adjust</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -241,7 +241,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="stroke/index.php">
+                            <a href="/stroke/index.php">
                                 <div class="panel-footer">
                                     <span class="pull-left">Adjust</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -262,7 +262,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="sepsis/index.php">
+                            <a href="/sepsis/index.php">
                                 <div class="panel-footer">
                                     <span class="pull-left">Adjust</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -283,7 +283,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="codeblue/index.php">
+                            <a href="/codeblue/index.php">
                                 <div class="panel-footer">
                                     <span class="pull-left">Adjust</span>
                                     <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -294,7 +294,49 @@
                     </div>
                 </div>
                 <!-- /.row -->
+                <div class="col-lg-12">
+                    <div class="panel panel-lightGreen">
+                        <div class="panel-heading">
+                            Security Settings
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-pills">
+                                <li class="active"><a href="#home-pills" data-toggle="tab" aria-expanded="true">Login</a>
+                                </li>
+                                <li class=""><a href="#profile-pills" data-toggle="tab" aria-expanded="false">Profile</a>
+                                </li>
+                                <li class=""><a href="#messages-pills" data-toggle="tab" aria-expanded="false">Messages</a>
+                                </li>
+                                <li class=""><a href="#settings-pills" data-toggle="tab" aria-expanded="false">Contrast</a>
+                                </li>
+                            </ul>
 
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade active in" id="home-pills">
+                                    <h4>Login Settings</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="profile-pills">
+                                    <h4>Profile Settings</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="messages-pills">
+                                    <h4>Message Settings</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="settings-pills">
+                                    <h4>Contrast Settings</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
 
                 <!-- /.row -->
 

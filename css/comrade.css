@@ -1,0 +1,32 @@
+/* Global Styles */
+#page-wrapper {
+    background-color: #002B37;  
+}
+
+.container-fluid {
+    background-color:  #FDF6E2;
+}
+
+/* Title Colors */
+.page-header {
+    color:   #002B37;  
+}
+
+h1 small {
+    color: #93A1A1;
+}
+
+.breadcrumb {
+    background-color: #fdf6e2;
+    
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    border-color: #20A198;
+    color: #fff;
+    background-color: #20A198;
+}
+
+a {
+    color: black;
+}
